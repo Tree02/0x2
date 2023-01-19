@@ -1,0 +1,44 @@
+*{
+    font-family: 'Sofia Sans', sans-serif;
+}
+
+:root{
+    --first: #A1C2FF;
+    --second: #91AEE6;
+    --therth: #7891BF;
+    --fourth: #506180;
+    --fiveth: #283040;
+}
+
+body{
+    background-color: #283040;
+    height: 100vh;
+}
+
+body h1{
+    color: white;
+}
+
+.a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    height: 100%;
+}
+
+
+/*Botones (input)*/
+.a form input{
+    display: flex;
+    width: 35vw;
+    margin: 1.4vh;
+    padding: 2vh;
+    font-size: 20px;
+}
+
+.a form input:hover{
+    box-shadow: 0 5px 5px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
